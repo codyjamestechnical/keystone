@@ -8,6 +8,13 @@ Automatically manages images stored in [Cloudinary](http://cloudinary.com/), inc
 
 See the [Cloudinary configuration documentation](http://keystonejs.com/docs/configuration#services-cloudinary) for details on how to set up Cloudinary in KeystoneJS.
 
+## HTTPS Transport
+	To get images over HTTPS, simply add 
+	```js
+	'cloudinary secure': true
+	```
+	to your keystone.init in the keystone.js file.
+
 ## Example
 
 ```js
